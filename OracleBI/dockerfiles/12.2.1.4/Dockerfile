@@ -20,7 +20,9 @@
 #
 # Pull base image
 # ---------------
-FROM oracle/fmw-infrastructure:12.2.1.3
+# FROM oracle/fmw-infrastructure:12.2.1.3
+# Referencia de Imagen actualizada
+FROM store/oracle/fmw-infrastructure:12.2.1.3-200127
 
 # Maintainer
 # ----------
